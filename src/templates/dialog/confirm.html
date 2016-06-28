@@ -1,0 +1,20 @@
+<div class="mask dialog-mask dialog-confirm" data-usage="confirm">
+    <div class="common-dialog">
+        <% if(header){ %>
+        <header>
+        <%-title%>
+        </header>
+        <% } %>
+        <section>
+            <%-message%>
+        </section>
+        <footer>
+            <a href="javascript:void(0)" class="b-yes week">
+                <%-yesText%>
+            </a>
+            <a href="javascript:void(0)" class="b-no">
+                <%-noText%>
+            </a>
+        </footer>
+    </div>
+</div>

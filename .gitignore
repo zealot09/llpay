@@ -1,0 +1,17 @@
+/node_modules
+node_modules
+npm-debug.log
+.idea
+dist
+zip
+.DS_Store
+*.zip
+*.scssc
+
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz

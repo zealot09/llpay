@@ -1,0 +1,246 @@
+@import "vars";
+
+//comment on the bottom tabs
+.footer {
+}
+.lly-tabs {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    height:55px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border-top: 1px solid $line_color;
+    z-index: 9;
+
+    li {
+        box-sizing: border-box;
+        height: 55px;
+        line-height: 55px;
+        padding: 6px 0;
+        width: 25%;
+        position: relative;
+        float:left;
+        &.selected{
+            a {
+                color: $main_color;
+            }
+        }
+        .line {
+            // margin: 0 -15px;
+            box-sizing: border-box;
+            text-align: center;
+            .tab-icon {
+              display: block;
+              height: 25px;
+              width: 30px;
+              margin: 0 auto;
+            }
+
+            .tab-home {
+              background: url($icon_sprite_bg) -2px -204px no-repeat;
+              background-size: 250px auto;
+            }
+
+            .tab-home-selected {
+              background: url($icon_sprite_bg) -40px -204px no-repeat;
+              background-size: 250px auto;
+            }
+
+            .tab-buy {
+              background: url($icon_sprite_bg) -3px -251px no-repeat;
+              background-size: 250px auto;
+            }
+
+            .tab-buy-selected {
+              background: url($icon_sprite_bg) -41px -251px no-repeat;
+              background-size: 250px auto;
+            }
+
+            .tab-sell {
+              background: url($icon_sprite_bg) -2px -297px no-repeat;
+              background-size: 250px auto;
+            }
+
+            .tab-sell-selected {
+              background: url($icon_sprite_bg) -41px -297px no-repeat;
+              background-size: 250px auto;
+            }
+
+            .tab-account {
+              background: url($icon_sprite_bg) -2px -342px no-repeat;
+              background-size: 250px auto;
+            }
+            .tab-account-selected {
+              background: url($icon_sprite_bg) -41px -342px no-repeat;
+              background-size: 250px auto;
+            }
+        }
+    }
+    a {
+        display: block;
+        text-align: center;
+        line-height: 14px;
+        height: 14px;
+        color: $font_color;
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    &.balance-tabs {
+        li {
+            width: 30%;
+            margin: 0 10%;
+            &.selected{
+                .line {
+                    margin: 0 -35%;
+                    border-right: 1px solid $line_color;
+                }
+            }
+            .line {
+                margin: 0 -35%;
+                border-right: 1px solid $line_color;
+            }
+        }
+    }
+}
+
+.homepage-content {
+  .go-balance {
+    .balance-icon {
+      display: inline-block;
+      box-sizing: border-box;
+      width: 16px;
+      height: 16px;
+      background: url($icon_sprite_bg) -78px -207px no-repeat;
+      background-size: 250px auto;
+      position: relative;
+      top: 3px;
+    }
+
+    a {
+      font-size: 13px;
+    }
+  }
+  .account {
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    font-size: $max_font_size;
+    // margin-top: 26px;
+    margin-top: 0.7rem;
+  }
+
+  h1 {
+    // margin-top: 35px;
+    margin-top: 0.9rem;
+    color: $title_font_color;
+    text-align: center;
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    .int-balance {
+        font-size: 50px;
+    }
+    .decimal-balance {
+      font-size: 27px;
+      // font-weight: normal;
+    }
+  }
+
+  .account-container {
+    box-sizing: border-box;
+    // @include box-sizing(border-box);
+    // height: 210px;
+    height: 5.6rem;
+    padding: 0.5rem 0.5rem 1.6rem 0.5rem;
+    border-bottom: 1px solid $light_line_color;
+  }
+
+  .banner-container {
+    background: $light_bg_color;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+}
+
+.app-container {
+  width: 100%;
+  position: relative;
+  // margin-bottom: 38px;
+  margin-bottom: 1rem;
+
+  .app-list {
+    box-sizing: border-box;
+    li {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 25%;
+      text-align: center;
+      // margin-top: 38px;
+      margin-top: 0.9rem;
+
+      a {
+        display: block;
+        font-size: $common_font_size;
+      }
+
+      .item {
+        display: block;
+        margin: auto;
+        width: 66px;
+        height: 66px;
+        box-sizing: border-box;
+      }
+      .icon-desc {
+        text-align: center;
+        color: $main_home_color;
+      }
+    }
+
+    .mobilebill {
+      // background: url($icon_sprite_bg) -67px 2px no-repeat;
+      background: url($icon_sprite_bg) -70px -404px no-repeat;
+      background-size: 250px auto;
+    }
+    .sell {
+      background: url($icon_sprite_bg) 0 2px no-repeat;
+      background-size: 250px auto;
+    }
+    .buy {
+      background: url($icon_sprite_bg) -136px 2px no-repeat;
+      background-size: 250px auto;
+    }
+    .traffic {
+      // background: url($icon_sprite_bg) -1px -133px no-repeat;
+      background: url($icon_sprite_bg) -1px -404px no-repeat;
+      background-size: 250px auto;
+    }
+    .oilcard {
+      background: url($icon_sprite_bg) -1px -473px no-repeat;
+      background-size: 250px auto;
+    }
+    .repayment {
+      // background: url($icon_sprite_bg) -140px -65px no-repeat;
+      // background: url($icon_sprite_bg) -1px -473px no-repeat;
+      background: url($icon_sprite_bg) -70px -473px no-repeat;
+      background-size: 250px auto;
+    }
+    .life {
+      background: url($icon_sprite_bg) 0 -66px no-repeat;
+      background-size: 250px auto;
+    }
+    .takeout {
+      background: url($icon_sprite_bg) -72px -64px no-repeat;
+      background-size: 250px auto;
+    }
+    .licai {
+      background: url($icon_sprite_bg) -72px -132px no-repeat;
+      background-size: 250px auto;
+    }
+    .liancard {
+      background: url($icon_sprite_bg) -138px -132px no-repeat;
+      background-size: 250px auto;
+    }
+  }
+}

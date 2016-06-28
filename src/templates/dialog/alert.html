@@ -1,0 +1,27 @@
+<div class="mask dialog-mask" data-usage="alert">
+    <div class="common-dialog">
+        <% if(titleValue){ %>
+        <header>
+            <%-title%>
+            <% if(closeIcon){ %>
+            <a href="javascript:void(0);" class="dialog-btn-close"></a>
+            <% } %>
+        </header>
+        <% }else{ %>
+        <header style="height:50px;">
+            <%-title%>
+            <% if(closeIcon){ %>
+            <a href="javascript:void(0);" class="dialog-btn-close"></a>
+            <% } %>
+        </header>
+        <% } %>
+        <section style="text-align: <%=textAlign%>">
+            <%=message%>
+        </section>
+        <footer>
+            <a href="javascript:void(0)">
+                <%-btnText%>
+            </a>
+        </footer>
+    </div>
+</div>

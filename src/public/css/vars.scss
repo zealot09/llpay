@@ -1,0 +1,100 @@
+@charset "UTF-8";
+$bg_color: #fcfcfc !default;
+$main_color: #49d49e !default;
+// $main_color: #e4b583;
+$main_font_color: #e4b583 !default;
+$contrast_color: #ff782e !default;
+$main_color: #5ca6ff;
+$main_font_color: #5da6ff;
+$main_font_gray: #666666;
+$main_home_color: #333333;
+$main_color_green: #36cc92;
+
+$header_font_color: #474747;
+$header_bg: #ffffff;
+$main_green: #04DAB6;
+$header_refresh_color: $main_font_color;
+
+$font_color: #474747 !default;
+// $font_color: #d39756;
+$font_week_color: #757575 !default;
+
+$dark_font_color: #999999;
+$light_font_color: #c1c1c1;
+$title_font_color: #333333;
+
+$line_color: #eee !default;
+$light_line_color: #f8f8f8 !default;
+$toggle_bg_color: #49d49e !default;
+$page_bg_color: #f8f8f8 !default;
+$price_color_red: #ff771d !default;
+$tips_bg_yellow: #ffeec8 !default;
+
+$font: "microsoft yahei",Arial,Verdana,"\5b8b\4f53" !default;
+
+
+$sub_color_black: #323232 !default;
+$sub_color_green: #36cc92 !default;
+$main_color_green: #36cc92 !default;
+$sub_color_orange: #fdb02d !default;
+$sub_color_red: #ff6364 !default;
+$disabled_color: #c1c1c1 !default;
+$light_bg_color: #f6f6f6 !default;
+
+//************header base****************
+$header_font_color: #ffffff !default;
+$header_bg: #42474b !default;
+$header_refresh_color: #36cc92 !default;
+
+$common_font_size: 13px !default;
+$main_font_size: 14px !default;
+$min_font_size: 12px !default;
+$btn_font_size: 15px !default;
+$max_font_size:16px !default;
+$super_font_size:18px !default;
+$huge_font_size: 24px !default;
+
+//icons paths or sprite img backgrouds
+$icon_sprite_bg: '../images/v2/sprite.png' !default;
+$icon_person_path: '../images/gold/icon_person.png';
+$icon_refresh_path: '../images/gold/btn_refresh.png';
+$icon_help_path: '../images/gold/icon_help.png';
+$icon_help_green_path: '../images/gold/icon_help_gold.png';
+
+$icon_sound_path: '../images/v2/icon_marquee.gif';
+
+$icon_checked_path: '../images/v2/checked.png';
+$icon_unchecked_path: '../images/v2/unchecked.png';
+
+$icon_index1_path: '../images/gold/one.png';
+$icon_index2_path: '../images/gold/two.png';
+
+$icon_balance_path: '../images/gold/icon_balance.png' !default;
+$icon_transfer_path: '../images/gold/icon_transfer.png' !default;
+$icon_transfer_over_path: '../images/gold/icon_transfer_over.png' !default;
+
+$right_arrow_green_path: '../images/gold/right_arrow_gold.png' !default;
+$icon_turnout_path: '../images/gold/turn_out.png' !default;
+$icon_turnin_path: '../images/gold/turn_in.png' !default;
+
+$icon_account_path: '../images/gold/account.png' !default;
+$icon_right_arrow_small_path: '../images/gold/right_arrow_small.png' !default;
+
+$icon_radio_path: '../images/gold/radio-icon.png' !default;
+
+$dialog_xiaolian_path: '../images/gold/dialog_xiaolian.png' !default;
+$icon_xiaolian_path: '../images/gold/xiaolian.png' !default;
+$icon_xiaolian_tip_path: '../images/gold/xiaolian_tip.png' !default;
+
+$icon_xiaolian_success_path: '../images/gold/success.png' !default;
+$icon_xiaolian_fail_path: '../images/gold/fail.png' !default;
+$icon_xiaolian_login_path: '../images/gold/login.png' !default;
+
+$icon_vacant_path: '../images/gold/vacant.png' !default;
+$icon_isNull_path: '../images/v2/isnull.png' !default;
+
+$icon_cheats1_path: '../images/gold/cheats1.png' !default;
+$icon_cheats2_path: '../images/gold/cheats2.png' !default;
+
+$icon_btn_back_path: '../images/gold/btn_back.png' !default;
+$sprite_bg_path: '../images/gold/sprite_bg.png' !default;

@@ -1,0 +1,13 @@
+<div class="mask transparent dialog-mask" data-usage="toast">
+    <div class="toast-dialog">
+        <section style="text-align: <%=textAlign%>">
+            <%=message%>
+        </section>
+
+        <% if(button) {%>
+          <div class="button">
+            <%= button %>
+          </div>
+        <% }%>
+    </div>
+</div>

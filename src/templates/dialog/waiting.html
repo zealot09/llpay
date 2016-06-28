@@ -1,0 +1,19 @@
+<div class="mask dialog-mask <%= isAbsolute ? 'dialog-absolute' : '' %>" data-usage="waiting">
+    <div class="common-dialog waiting-dialog">
+        <header>
+          <%-title%>
+        </header>
+        <section style="padding-top:10px; text-align:left;">
+            <%-message%>
+        </section>
+        <footer>
+            <a href="javascript:void(0)" class="b-problem b-left week">
+                <%-btnLeft%>
+            </a>
+            <a href="javascript:void(0)" class="b-complete b-right ">
+                <%-btnRight%>
+            </a>
+            <!-- <a href="javascript:void(0)" class="b-attach"><%-btnAttach%></a> -->
+        </footer>
+    </div>
+</div>

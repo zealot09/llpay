@@ -1,0 +1,142 @@
+@import "vars";
+
+.header {
+    position: fixed;
+    top: 0;
+    line-height: 44px;
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    color: $header_font_color;
+    z-index: 19;
+    background-color: $header_bg;
+    border-bottom: 1px solid $light_line_color;
+}
+
+.header a{
+    display: block;
+    position: absolute;
+    height: 26px;
+    line-height: 22px;
+    padding: 10px 20px;
+    top: 0;
+    font-size: 16px;
+}
+
+.header .toggle-menu {
+  z-index: 1000;
+  position: absolute;
+  top: 45px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  right: 15px;
+  li {
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+    padding: 0 42px;
+    color: white;
+    z-index: 1000;
+  }
+}
+
+.header a.left{
+    left: 0;
+}
+
+.header a.right{
+    right: 0;
+    padding-right: 15px;
+}
+
+.header a.exit {
+  // padding-top: 5px;
+  font-size: $btn_font_size;
+  line-height: 23px;
+  padding-left: 10px;
+  &:before{
+    content: '';
+    width: 20px;
+    height: 22px;
+    display: block;
+    background: url($icon_btn_back_path) center no-repeat;
+    background-size: 25px auto;
+    position: relative;
+    float: left;
+  }
+}
+
+.header a.menu {
+  background: url(../images/v2/more.png) no-repeat  center;
+  background-size: auto 18px;
+  height: 45px;
+  padding: 0 20px;
+}
+
+.header a.back{
+    left: 0;
+    width: 25px;
+    height: 22px;
+    padding: 11px 10px;
+    top: 0;
+    line-height: 25px;
+    font-size: $btn_font_size;
+    background: url($icon_btn_back_path) center no-repeat;
+    background-size: 25px auto;
+}
+
+.header a.personal{
+    right: 0;
+    width: 14px;
+    height: 22px;
+    padding: 11px 18px;
+    top: 0;
+    background: url($icon_person_path) center no-repeat;
+    background-size: 14px auto;
+}
+
+.header a.help{
+    right: 0;
+    width: 25px;
+    height: 22px;
+    padding: 11px 18px;
+    margin-left:16px;
+    top: 0;
+    background: url($icon_help_path) center no-repeat;
+    background-size: 18px auto;
+}
+.header a.refresh{
+    left: 45px;
+    width: 14px;
+    height: 22px;
+    padding: 11px 18px 11px 34px;
+    top: 0;
+    background: url($icon_refresh_path) 10px center no-repeat;
+    background-size: auto 20px;
+    // color:#36cc92;
+    color: $header_refresh_color;
+}
+.header a.refresh-r{
+    right: 0;
+    width: 14px;
+    height: 22px;
+    padding: 11px 18px;
+    top: 0;
+    background: url(../images/common/btn_refresh.png) center no-repeat;
+    background-size: auto 18px;
+}
+
+.header-main-bg {
+  background: $main_color;
+  color: white;
+  border: 0;
+}
+
+header.header-main-bg a.back{
+  background: url(../images/v2/white-back.png) center no-repeat;
+  background-size: 10px auto;
+}

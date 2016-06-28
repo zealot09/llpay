@@ -1,0 +1,21 @@
+<div class="mask dialog-mask" data-usage="superAlert">
+    <div class="common-dialog">
+        <% if(header){ %>
+        <header>
+            <%-title%>
+            <% if(closeIcon){ %>
+            <a href="javascript:void(0);" class="dialog-btn-close"></a>
+            <% } %>
+        </header>
+        <% } %>
+        <section>
+            <%=message%>
+            <p class="check-agreement confirm-checkbox">我知道了</p>
+        </section>
+        <footer>
+            <a href="javascript:void(0)" class="disabled">
+                <%-btnText%>
+            </a>
+        </footer>
+    </div>
+</div>
